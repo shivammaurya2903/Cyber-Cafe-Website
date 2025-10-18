@@ -1,3 +1,11 @@
+:root {
+  --white: #ffffff;
+  --light-grey: #f4f7fa;
+  --text-dark: #333333;
+  --blue: #0056b3;
+  --orange: #ffa500;
+}
+
 .about-header {
   display: flex;
   text-align: center;

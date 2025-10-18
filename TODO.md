@@ -1,0 +1,3 @@
+- [x] Remove dark mode button from index.html
+- [x] Remove dark mode script from script.js
+- [x] Clean up dark mode CSS variables if any

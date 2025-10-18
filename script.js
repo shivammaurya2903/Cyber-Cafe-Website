@@ -1,4 +1,6 @@
 
+
+//scroll animation 
 window.addEventListener('scroll', function() {
   const header = document.querySelector('header');
   if (window.scrollY > 50) {
@@ -7,6 +9,8 @@ window.addEventListener('scroll', function() {
     header.classList.remove('scrolled');
   }
 })
+
+
 // Service information data (same as in index.html)
 const serviceInfo = {
   'AePS': {
@@ -302,6 +306,8 @@ window.onclick = function(event) {
     modal.style.display = 'none';
   }
 };
+
+
 
 // Sticky header scroll effect
 window.addEventListener('scroll', function() {
