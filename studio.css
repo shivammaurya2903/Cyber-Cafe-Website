@@ -454,12 +454,12 @@ footer {
 
 /* Mid-range phones responsiveness (720px - 1080px) */
 @media (min-width: 720px) and (max-width: 1080px) {
-  .studio-header {
-    padding: 0 1.5rem;
-  }
-
-  .studio-header .logo img {
-    height: 80px;
+  header {
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
   }
 
   nav ul {
