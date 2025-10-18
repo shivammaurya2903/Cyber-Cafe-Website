@@ -398,6 +398,132 @@ footer {
   }
 }
 
+/* Mid-range phones responsiveness (720px - 1080px) */
+@media (min-width: 720px) and (max-width: 1080px) {
+  .studio-header {
+    padding: 0 1.5rem;
+  }
+
+  .studio-header .logo img {
+    height: 80px;
+  }
+
+  nav ul {
+    gap: 0.8rem;
+  }
+
+  nav a {
+    font-size: 0.95rem;
+  }
+
+  .contact-btn {
+    padding: 0.45rem 0.9rem;
+    font-size: 0.95rem;
+  }
+
+  .studio-hero {
+    padding: 1.5rem;
+  }
+
+  .hero-text {
+    padding: 0.8rem;
+  }
+
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.3rem;
+  }
+
+  .hero-text p {
+    font-size: 0.95rem;
+  }
+
+  .hero-text .btn {
+    padding: 0.7rem 1.4rem;
+    font-size: 0.95rem;
+  }
+
+  .hero-image {
+    padding: 0.8rem;
+  }
+
+  .promo-banner {
+    font-size: 0.85rem;
+    padding: 0.45rem 0.9rem;
+  }
+
+  .studio-services,
+  .studio-gallery,
+  .studio-pricing,
+  .studio-testimonials {
+    padding: 1.5rem;
+  }
+
+  .studio-services h3,
+  .studio-gallery h3,
+  .studio-pricing h3,
+  .studio-testimonials h3 {
+    font-size: 1.6rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 0.8rem;
+  }
+
+  .card {
+    padding: 0.9rem;
+    font-size: 0.95rem;
+  }
+
+  .card span {
+    font-size: 1.8rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 0.8rem;
+  }
+
+  .gallery img {
+    max-width: 280px;
+  }
+
+  table th,
+  table td {
+    padding: 0.7rem;
+    font-size: 0.95rem;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 0.8rem;
+  }
+
+  .testimonial-card {
+    padding: 0.9rem;
+  }
+
+  .footer-content {
+    padding: 0 1.5rem;
+  }
+
+  .footer-section h4 {
+    font-size: 1.1rem;
+  }
+
+  .footer-section p {
+    font-size: 0.95rem;
+  }
+
+  .footer-section ul li {
+    font-size: 0.95rem;
+  }
+}
+
 /* Midrange phones responsiveness */
 @media (max-width: 480px) {
   .studio-header {

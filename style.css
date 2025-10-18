@@ -496,4 +496,175 @@ footer::before {
   }
 }
 
+/* Mid-range phones responsiveness (720px - 1080px) */
+@media (min-width: 720px) and (max-width: 1080px) {
+  header {
+    padding: 0 1.5rem;
+  }
+
+  .logo img {
+    height: 80px;
+  }
+
+  nav ul {
+    gap: 0.8rem;
+  }
+
+  nav a {
+    font-size: 0.95rem;
+  }
+
+  .contact-btn {
+    padding: 0.45rem 0.9rem;
+    font-size: 0.95rem;
+  }
+
+  .hero {
+    height: 350px;
+  }
+
+  .overlay {
+    padding: 0.8rem;
+    font-size: 1.1rem;
+  }
+
+  .hero-center h3 {
+    font-size: 1.3rem;
+  }
+
+  .cta .btn {
+    padding: 0.65rem 1.3rem;
+    font-size: 0.95rem;
+  }
+
+  .services-section {
+    padding: 1.5rem;
+  }
+
+  .services-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .intro {
+    font-size: 1rem;
+  }
+
+  .category h3 {
+    font-size: 1.4rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0.8rem;
+  }
+
+  .card {
+    padding: 0.9rem;
+    font-size: 0.95rem;
+  }
+
+  .card i {
+    font-size: 1.3rem;
+  }
+
+  .footer-content {
+    padding: 0 1.5rem;
+  }
+
+  .footer-section h4 {
+    font-size: 1.1rem;
+  }
+
+  .modal-content {
+    width: 85%;
+    padding: 18px;
+  }
+}
+
+/* Small screens responsiveness (up to 480px) */
+@media (max-width: 480px) {
+  header {
+    padding: 0.5rem 1rem;
+  }
+
+  .logo img {
+    height: 60px;
+  }
+
+  nav ul {
+    gap: 0.5rem;
+  }
+
+  nav a {
+    font-size: 0.9rem;
+  }
+
+  .contact-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .hero {
+    height: 300px;
+  }
+
+  .overlay {
+    padding: 0.6rem;
+    font-size: 1rem;
+  }
+
+  .hero-center h3 {
+    font-size: 1.2rem;
+  }
+
+  .cta .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .services-section {
+    padding: 1rem;
+  }
+
+  .services-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .intro {
+    font-size: 0.95rem;
+  }
+
+  .category h3 {
+    font-size: 1.3rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 0.7rem;
+  }
+
+  .card {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .card i {
+    font-size: 1.2rem;
+  }
+
+  .footer-content {
+    padding: 0 1rem;
+  }
+
+  .footer-section h4 {
+    font-size: 1rem;
+  }
+
+  .modal-content {
+    width: 95%;
+    margin: 25% auto;
+    padding: 12px;
+  }
+}
+
 

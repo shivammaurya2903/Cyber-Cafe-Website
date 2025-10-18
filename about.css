@@ -314,3 +314,167 @@ footer p {
     max-width: 100%;
   }
 }
+
+/* Mid-range phones responsiveness (720px - 1080px) */
+@media (min-width: 720px) and (max-width: 1080px) {
+  .about-header {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .about-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .about-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .about-story,
+  .about-mission,
+  .about-vision,
+  .about-values,
+  .about-team,
+  .about-services {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .about-story h3,
+  .about-mission h3,
+  .about-vision h3,
+  .about-team h3,
+  .about-services h3 {
+    font-size: 1.8rem;
+  }
+
+  .about-story p,
+  .about-mission p,
+  .about-vision p,
+  .about-services p {
+    font-size: 1rem;
+  }
+
+  .value {
+    min-width: 220px;
+    padding: 1.8rem 1.3rem;
+  }
+
+  .value h4 {
+    font-size: 1.1rem;
+  }
+
+  .value p {
+    font-size: 0.95rem;
+  }
+
+  .value span {
+    font-size: 2.8rem;
+  }
+
+  .team-card {
+    max-width: 320px;
+    padding: 1.8rem;
+  }
+
+  .team-card h4 {
+    font-size: 1.2rem;
+  }
+
+  .team-card p {
+    font-size: 0.95rem;
+  }
+
+  .team-card img {
+    width: 110px;
+    height: 110px;
+  }
+
+  .about-services ul {
+    max-width: 850px;
+  }
+
+  .about-services li {
+    padding: 0.9rem;
+  }
+}
+
+/* Small screens responsiveness (up to 480px) */
+@media (max-width: 480px) {
+  .about-header {
+    padding: 1.5rem 1rem;
+  }
+
+  .about-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .about-header h2 {
+    font-size: 1.3rem;
+  }
+
+  .about-story,
+  .about-mission,
+  .about-vision,
+  .about-values,
+  .about-team,
+  .about-services {
+    padding: 1.5rem 1rem;
+  }
+
+  .about-story h3,
+  .about-mission h3,
+  .about-vision h3,
+  .about-team h3,
+  .about-services h3 {
+    font-size: 1.6rem;
+  }
+
+  .about-story p,
+  .about-mission p,
+  .about-vision p,
+  .about-services p {
+    font-size: 0.95rem;
+  }
+
+  .value {
+    min-width: 180px;
+    padding: 1.5rem 1rem;
+  }
+
+  .value h4 {
+    font-size: 1rem;
+  }
+
+  .value p {
+    font-size: 0.9rem;
+  }
+
+  .value span {
+    font-size: 2.5rem;
+  }
+
+  .team-card {
+    max-width: 100%;
+    padding: 1.5rem;
+  }
+
+  .team-card h4 {
+    font-size: 1.1rem;
+  }
+
+  .team-card p {
+    font-size: 0.9rem;
+  }
+
+  .team-card img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .about-services ul {
+    max-width: 100%;
+  }
+
+  .about-services li {
+    padding: 0.8rem;
+  }
+}
