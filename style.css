@@ -168,7 +168,6 @@ nav a:hover {
 .btn.blue:hover {
   background: var(--orange);
   transform: scale(1.05);
-  animation: rotate 0.5s ease;
 }
 
 .btn.orange {
@@ -180,7 +179,6 @@ nav a:hover {
 .btn.orange:hover {
   background: var(--blue);
   transform: scale(1.05);
-  animation: rotate 0.5s ease;
 }
 
 .services-section {
