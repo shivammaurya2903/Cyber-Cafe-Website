@@ -104,10 +104,12 @@ nav a:hover {
 
 .hero-left {
   background-image: url('images/hero1.webp');
+  animation: slideInLeft 1.5s ease-in-out;
 }
 
 .hero-right {
   background-image: url('images/hero2.jpg');
+  animation: slideInRight 1.5s ease-in-out;
 }
 
 .overlay {
@@ -166,6 +168,7 @@ nav a:hover {
 .btn.blue:hover {
   background: var(--orange);
   transform: scale(1.05);
+  animation: rotate 0.5s ease;
 }
 
 .btn.orange {
@@ -177,6 +180,7 @@ nav a:hover {
 .btn.orange:hover {
   background: var(--blue);
   transform: scale(1.05);
+  animation: rotate 0.5s ease;
 }
 
 .services-section {
@@ -240,12 +244,17 @@ nav a:hover {
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
+.card {
+  animation: zoomIn 0.8s ease-in-out;
+}
+
 .card:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   background-color: var(--blue);
   color: var(--white);
   border-color: var(--blue);
+  animation: bounce 0.6s ease;
 }
 
 .card:hover i {
@@ -364,7 +373,7 @@ footer::before {
   }
 }
 
-/* Keyframes for fadeIn animation */
+/* Keyframes for animations */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -373,6 +382,60 @@ footer::before {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
   }
 }
 
