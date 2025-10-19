@@ -1,6 +1,6 @@
 
 
-//scroll animation 
+//scroll animation
 window.addEventListener('scroll', function() {
   const header = document.querySelector('header');
   if (window.scrollY > 50) {
@@ -8,7 +8,7 @@ window.addEventListener('scroll', function() {
   } else {
     header.classList.remove('scrolled');
   }
-})
+}, { passive: true });
 
 
 // Service information data (same as in index.html)
@@ -292,29 +292,21 @@ document.querySelectorAll('.card').forEach(card => {
       modalDescription.textContent = serviceInfo[serviceName].description;
       modal.style.display = 'block';
     }
-  });
+  }, { passive: true });
 });
 
 // Close modal when clicking close button
-closeBtn.onclick = function() {
+closeBtn.addEventListener('click', function() {
   modal.style.display = 'none';
-};
+}, { passive: true });
 
 // Close modal when clicking outside
-window.onclick = function(event) {
+window.addEventListener('click', function(event) {
   if (event.target == modal) {
     modal.style.display = 'none';
   }
-};
+}, { passive: true });
 
 
 
-// Sticky header scroll effect
-window.addEventListener('scroll', function() {
-  const header = document.querySelector('header');
-  if (window.scrollY > 50) {
-    header.classList.add('scrolled');
-  } else {
-    header.classList.remove('scrolled');
-  }
-});
+
